@@ -2,12 +2,13 @@
   "name": "creatorstech-bot",
   "version": "1.0.0",
   "private": true,
-  "description": "Telegram-бот с обязательной подпиской на канал (без Python)",
+  "description": "Telegram-bot с обязательной подпиской на канал (без Python)",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "telegraf": "^4.16.3"
+    "telegraf": "^4.16.3",
+    "express": "^5.1.0"
   }
 }
