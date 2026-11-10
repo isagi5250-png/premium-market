@@ -1041,5 +1041,9 @@ const _adClose = document.getElementById('adClose');
 if(_adClose){ _adClose.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); document.getElementById('adCorner').style.display = 'none'; }); }
 
 </script>
+<script type="module">
+  import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.js';
+  inject();
+</script>
 </body>
 </html>
